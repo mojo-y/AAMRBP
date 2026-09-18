@@ -6,6 +6,28 @@ We will progressively refine this project and make the following deliverables pu
 - [ ] Source code
 - [ ] Experimental results
 
+## 🛠️ Environment Setup
+
+Basic Installation
+
+```bash
+# Create and activate the environment
+conda create -n aamrbp python=3.10 -y
+conda activate aamrbp
+
+# Install the dependency required by the core demo
+pip install torch
+
+# Run the architecture and loss-function demo
+python aamrbp_core.py
+```
+
+For integration with the complete Qwen3-VL project:
+
+```bash
+pip install transformers peft accelerate scipy pillow pandas safetensors
+```
+
 ## 🚀 Training
 
 Before training, please prepare the required datasets and pretrained models.
