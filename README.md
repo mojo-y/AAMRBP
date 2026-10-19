@@ -1,3 +1,4 @@
+
 # AAMRBP
 
 ## 📢 Release Plan
@@ -6,10 +7,20 @@ The **full code** will be released upon acceptance.
 
 We will progressively refine this project and make the following resources publicly available:
 
-* [ ] Training and testing datasets
-* [ ] Full source code
-* [ ] Experimental results
-* [ ] Model checkpoints
+- [ ] Training and testing datasets
+- [ ] Full source code
+- [ ] Experimental results
+- [ ] Model checkpoints
+
+## 🔬 Phytolith Microscopy Gallery
+
+Representative microscopic images of phytoliths collected from archaeological and modern reference samples.
+
+| Archaeological Sample I | Archaeological Sample II | Modern Reference Sample |
+| :---: | :---: | :---: |
+| <img src="assest/images/鸡叫城TN025w125④b%201-007.jpg" width="280" alt="Archaeological Sample I"> | <img src="assest/images/鸡叫城台VI⑧-2%207-027.jpg" width="280" alt="Archaeological Sample II"> | <img src="assest/images/鸡叫城现代样品3%201-003.jpg" width="280" alt="Modern Reference Sample"> |
+
+These representative images illustrate the morphological characteristics and diversity of phytoliths from archaeological contexts and modern reference materials, providing visual examples for phytolith recognition and analysis.
 
 ## 🛠️ Environment Setup
 
@@ -24,7 +35,7 @@ conda activate aamrbp
 pip install torch
 
 # Run the architecture and loss-function demo
-python aamrbp_core.py
+python core_code.py
 ```
 
 For integration with the complete **Qwen3-VL** framework, install the additional dependencies:
@@ -39,9 +50,7 @@ Before training, please prepare the required datasets and pretrained model.
 
 ### 1. Data Preparation
 
-Download the required datasets from the following link:
-
-👉 [Download Datasets](DATA_LINK)
+The training and testing datasets will be made publicly available upon acceptance.
 
 After downloading, organize the datasets according to the expected directory structure.
 
@@ -57,8 +66,6 @@ After downloading, place the model files in the corresponding directory before s
 
 ### 3. Training
 
-After completing the data and model preparation, start training with:
+After completing the data and model preparation, training can be performed using the provided training scripts.
 
-```bash
-# training command
-```
+Detailed training instructions and the full training code will be released upon acceptance.
