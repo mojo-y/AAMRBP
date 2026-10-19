@@ -34,10 +34,6 @@ conda activate aamrbp
 # Install the dependency required by the core demo
 pip install torch
 
-# Run the architecture and loss-function demo
-python core_code.py
-```
-
 For integration with the complete **Qwen3-VL** framework, install the additional dependencies:
 
 ```bash
